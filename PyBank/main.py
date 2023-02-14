@@ -1,13 +1,18 @@
+print("this line")
+
+
+
+
 # establish base point 
-import os
-import csv
+#import os
+#import csv
 
-csvFilePath = os.path.join ("..", "Resources", "budget_data.csv")
+#csvFilePath = os.path.join ("..", "Resources", "budget_data.csv")
 
-with open(csvFilePath) as csvFile:
+#with open(csvFilePath) as csvFile:
 
-    csvReader = csv.reader(csvFile, delimiter=",")
+#    csvReader = csv.reader(csvFile, delimiter=",")
 
-    header = next(csvReader)
+ #   header = next(csvReader)
 
-    print(header)
+  #  print(header)
